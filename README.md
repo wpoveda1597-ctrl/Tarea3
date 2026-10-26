@@ -9,11 +9,13 @@ Procesamiento en batch:
 wget https://www.datos.gov.co/api/v3/views/qijw-htwa/query.csv -O query.csv
 
 4. Crear el archivo batch.py usando el comando
+   
 nano batch.py
 
-5. Copiar el código encontrado en Github de batch.py
+6. Copiar el código encontrado en Github de batch.py
 
-6. Guardar el archivo
+7. Guardar el archivo
 
-7. Ejecutar el comando para lanzar el código
+8. Ejecutar el comando para lanzar el código
+   
 spark-submit batch.py
